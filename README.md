@@ -22,7 +22,7 @@ Esse outro comando é para criar um usuário admin para acesso ao painel (user: 
 docker exec keycloak /opt/jboss/keycloak/bin/add-user-keycloak.sh -u admin -p admin
 ```  
 
-Você pode acessar o painel em <a href="http://localhost:9080/auth/admin">http//localhost:9080/auth/admin</a>
+Você pode acessar o painel em <a href="http://localhost:9080/auth/admin">http://localhost:9080/auth/admin</a>
 
 Agora será necessário a criação de um Realm (MyRealm), um Client, um Client Scope, alguns usuários para testes e pelo menos duas Roles (ADMIN e USER).  
 Crie também um Mapper em seu Client, com o nome de 'athorities', do tipo 'User Realm Role'.  
